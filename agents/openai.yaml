@@ -1,0 +1,4 @@
+interface:
+  display_name: "税务发票查验"
+  short_description: "在税务官网自动识别、填写和提交验证码，查验发票并保存官方结果"
+  default_prompt: "使用 $chinatax-invoice-verify 自动查验这张发票，识别并填写当前验证码、提交查验，并在票面信息一致后自动保存和验证结果 PDF 与 PNG。"

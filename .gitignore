@@ -1,0 +1,24 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+
+# Invoice inputs, CAPTCHA captures and exported verification results
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+output/
+outputs/
+tmp/
+artifacts/
+*.log
